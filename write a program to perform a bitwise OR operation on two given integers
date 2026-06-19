@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args){
+        int number1,number2,result;
+        Scanner SC=new Scanner(System.in);
+        number1=SC.nextInt();
+        number2=SC.nextInt();
+        result=number1|number2;
+        System.out.println(result);
+    }
+}
