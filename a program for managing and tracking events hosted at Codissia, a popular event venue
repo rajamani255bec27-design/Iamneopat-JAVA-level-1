@@ -1,0 +1,9 @@
+import java.util.*;
+import java.io.*;
+class Numberofevents{
+    public static void main(String args[]){
+        Scanner SC=new Scanner(System.in);
+        int number=SC.nextInt();
+        System.out.println("Number of events hosted in Codissia is"+number);
+    }
+}
