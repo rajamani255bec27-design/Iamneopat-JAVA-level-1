@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Area{
+    public static void main(String args[]){
+        int l,b;
+        float ar;
+        Scanner SC=new Scanner(System.in);
+        l=SC.nextInt();
+        b=SC.nextInt();
+        if(b>0&&l>0){
+            ar=l*b;
+            System.out.println(ar);
+        }
+        else{
+            System.out.println("Invalid");
+            
+        }
+    }
+}
