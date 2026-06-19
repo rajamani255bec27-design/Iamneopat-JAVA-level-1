@@ -1,0 +1,14 @@
+import java.util.*;
+import java.io.*;
+class Main{
+    public static void main(String args[]){
+        int a,b;
+        Scanner SC=new Scanner(System.in);
+        a=SC.nextInt();
+        b=SC.nextInt();
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.print(a+" "+b);
+    }
+}
